@@ -1,0 +1,39 @@
+.container {
+	display: flex;
+	flex-direction: column;
+	gap: 5px;
+	border: 1px solid black;
+	border-radius: 20px;
+	padding-left: 15px;
+	margin-bottom: 5px;
+	background: linear-gradient(
+		90deg,
+		rgba(36, 0, 35, 1) 0%,
+		rgba(222, 73, 212, 0.8449973739495799) 1%,
+		rgba(0, 212, 255, 1) 100%
+	);
+	list-style-type: none;
+	font-size: 20px;
+	font-weight: 500;
+	color: #31034a;
+	padding-bottom: 10px;
+}
+
+.todoButton {
+	background: linear-gradient(
+		90deg,
+		rgba(36, 0, 35, 1) 0%,
+		rgba(222, 73, 212, 0.8449973739495799) 1%,
+		rgba(0, 212, 255, 1) 100%
+	);
+	border-radius: 20px;
+	margin-right: 10px;
+	border: none;
+	border: 2px solid black;
+	font-weight: 500;
+	font-size: 16px;
+}
+
+.todoButton:hover {
+	background-color: black;
+}
